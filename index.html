@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="orange">
+<title>QR Code</title>
+
+<link rel="stylesheet" href="styles.css">
+<script src="qrcode-lib.js" defer></script>
+<script src="camera.js" defer></script>
+
+
+<header>
+<h1>QR Code Reader</h1>
+</header>
+<main>
+        <section>
+                <p class="default">
+                        <output></output>
+
+                </p>
+
+
+
+        </section>
+        <section>
+                <div class="default">
+                        <image id="QRImage" alt="picture"></image>
+
+                </div>
+
+        </section>
+        <section>
+                <div class="default">
+                        <button>
+                                <label for="QRInput">Take Picture</label>
+                        </button>
+                        <input id="QRInput" type="file" accept="image/*" capture>
+                </div>
+
+
+        </section>
+
+</main>
+
+</html>

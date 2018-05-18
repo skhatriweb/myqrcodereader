@@ -1,0 +1,40 @@
+body{
+    margin:0;
+    padding:0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:grey;
+    background-color:white;
+    
+    
+}
+main{
+    padding-bottom:125px;
+}
+
+
+h1{
+    font-size:14pt;   
+    text-align:center;
+    font-weight: bold;
+     
+    
+}
+
+button{
+    padding:5px;
+    background-color:orange;
+    color:white;
+}
+#QRInput{
+    display:none;
+    
+}
+#QRImage{
+    width:100px;
+    display:none;
+}
+.default{
+    padding:10px;
+    margin:10px;
+}
+
