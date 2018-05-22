@@ -16,8 +16,10 @@ document.addEventListener('DOMContentLoaded',function(){
             /*event.target.result can be set as src of img tag for example xxx.setAttribute("src",event.target.result)
                */
               var QRimage=document.getElementById('QRImage');
-              QRimage.style.display="block";
+             
               QRimage.setAttribute('src',event.target.result) ; 
+
+              QRimage.style.opacity=1;
             });
     });
 

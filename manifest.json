@@ -1,0 +1,16 @@
+{
+    "name": "QR Code Reader!",
+    "short_name": "QRead",
+    "start_url": "/qr",
+    "display": "standalone",
+    "background_color": "orange",
+    "theme_color": "orange",
+    "description": "QR code reader",
+    "icons": [
+        {
+            "src": "android-icon.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        }
+    ]
+}
